@@ -31,8 +31,10 @@ void metersToFeetAndInces(double meters, unsigned int *ftPtr, double *inPtr){
     
     
     // Store the nubmer of incehs at the supplied address
-    printf("storing %.2f to the address %p\n", inches, inPtr);
-    *inPtr = inches;
+    if (inPtr){
+        printf("storing %.2f to the address %p\n", inches, inPtr);
+        *inPtr = inches;
+    }
 
     
 }
