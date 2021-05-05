@@ -20,4 +20,10 @@
     }
 }
 
+- (float)bodyMassIndex{
+    //return 19.0;
+    float normalBMI = [super bodyMassindex];
+    return normalBMI * 0.9;
+}
+
 @end
