@@ -30,8 +30,10 @@ int main(int argc, const char * argv[]) {
         float height = mikey.heightInMeters;
         int weight = mikey.weightInKilos;
         
-        NSLog(@"Mike is %.2f tall and %d weight in kilos", height, weight);
-        NSLog(@"Employee %lu hired on %@", mikey.employeeID, mikey.hireDate);
+        NSLog(@"Mikey is %.2f tall and %d weight in kilos", height, weight);
+        NSDate *date = mikey.hireDate;
+        NSLog(@"%@ hired on %@", mikey, date);
+        //NSLog(@"Employee %lu hired on %@", mikey.employeeID, mikey.hireDate);
         
         // log some values using custom methods
         float bmw = [mikey bodyMassindex];

@@ -26,4 +26,8 @@
     return normalBMI * 0.9;
 }
 
+- (NSString *)description{
+    return [NSString stringWithFormat:@"<Employee %d>", self.employeeID];
+}
+
 @end
