@@ -16,12 +16,17 @@ int main(int argc, const char * argv[]) {
         BNRPerson *mikey = [[BNRPerson alloc] init];
         
         // give the instance variables interesting values using setters
-        [mikey setWeightInKilos:96];
-        [mikey setHeightInMeters:1.8];
+//        [mikey setWeightInKilos:96];
+//        [mikey setHeightInMeters:1.8];
+        mikey.weightInKilos = 96;
+        mikey.heightInMeters = 1.8;
         
         // log the instance variables using the getters
-        float height = [mikey heightInMeters];
-        int weight = [mikey weightInKilos];
+//        float height = [mikey heightInMeters];
+//        int weight = [mikey weightInKilos];
+        float height = mikey.heightInMeters;
+        int weight = mikey.weightInKilos;
+        
         NSLog(@"Mike is %.2f tall and %d weight in kilos", height, weight);
         
         // log some values using custom methods
