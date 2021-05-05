@@ -10,6 +10,7 @@
 		7D2F2B7826156DDC00315C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F2B7726156DDC00315C38 /* main.m */; };
 		7D2F2B8526156F2E00315C38 /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F2B8426156F2E00315C38 /* BNRPerson.m */; };
 		7D746160264235B2009347CC /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D74615F264235B2009347CC /* BNREmployee.m */; };
+		7D74616326423B09009347CC /* BNRAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D74616226423B09009347CC /* BNRAsset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7D2F2B8426156F2E00315C38 /* BNRPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
 		7D74615E264235B2009347CC /* BNREmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNREmployee.h; sourceTree = "<group>"; };
 		7D74615F264235B2009347CC /* BNREmployee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNREmployee.m; sourceTree = "<group>"; };
+		7D74616126423B09009347CC /* BNRAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAsset.h; sourceTree = "<group>"; };
+		7D74616226423B09009347CC /* BNRAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAsset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				7D2F2B7726156DDC00315C38 /* main.m */,
+				7D74616126423B09009347CC /* BNRAsset.h */,
+				7D74616226423B09009347CC /* BNRAsset.m */,
 				7D74615E264235B2009347CC /* BNREmployee.h */,
 				7D74615F264235B2009347CC /* BNREmployee.m */,
 			);
@@ -131,6 +136,7 @@
 				7D746160264235B2009347CC /* BNREmployee.m in Sources */,
 				7D2F2B7826156DDC00315C38 /* main.m in Sources */,
 				7D2F2B8526156F2E00315C38 /* BNRPerson.m in Sources */,
+				7D74616326423B09009347CC /* BNRAsset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
